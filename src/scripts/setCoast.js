@@ -15,13 +15,13 @@ export function setCoast(arr1, arr2) {
   } else {
     arrCoast = arr1.map((value, index) => {
       if (
-        Object.prototype.hasOwnProperty.call(objValues[index], "min") &&
-        objValues[index].min > value + arr2[index]
+        Object.prototype.hasOwnProperty.call(objValues[index], "min")
+          && objValues[index].min > value + arr2[index]
       ) {
         return objValues[index].min;
       } else if (
-        Object.prototype.hasOwnProperty.call(objValues[index], "max") &&
-        objValues[index].max < value + arr2[index]
+        Object.prototype.hasOwnProperty.call(objValues[index], "max") 
+          && objValues[index].max < value + arr2[index]
       ) {
         return objValues[index].max;
       } else {

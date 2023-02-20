@@ -2,8 +2,8 @@ import { arrStorage, setStorage } from "./setStorage";
 
 const bunnyStorage = document.getElementsByName("bunnyStorage");
 
-bunnyStorage.forEach((w) => {
-  w.addEventListener("input", () => getCheckedBunnyInput());
+bunnyStorage.forEach((input) => {
+  input.addEventListener("input", () => getCheckedBunnyInput());
 });
 
 export let bunnyActive;

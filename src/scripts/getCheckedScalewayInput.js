@@ -2,8 +2,8 @@ import { arrStorage, setStorage } from "./setStorage";
 
 const scalewayStorage = document.getElementsByName("scalewayStorage");
 
-scalewayStorage.forEach((w) => {
-  w.addEventListener("click", () => getCheckedScalewayInput());
+scalewayStorage.forEach((input) => {
+  input.addEventListener("click", () => getCheckedScalewayInput());
 });
 
 export let scalewayActive;

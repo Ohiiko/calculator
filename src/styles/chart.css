@@ -1,15 +1,9 @@
-
-
 #chartReport {
   width: 500px;
   height: 250px;
   margin:0 auto;
   margin-bottom: 70px;
   position: relative;
-  /* //   @include onTable {
-  //   width: 700px;
-  //   height: 350px;
-  // } */
 }
 
 .bunnyStorageChoice {
@@ -20,11 +14,6 @@
   position: absolute;
   bottom: -3%;
   left: 43%;
-  /* //   @include onTable {
-  //     flex-direction: row;
-  //     top: 37%;
-  //     left: 0;
-  // } */
 }
 
 .scalewayStorageChoice {
@@ -35,11 +24,6 @@
   position: absolute;
   bottom: -3%;
   left: 63%;
-  /* //   @include onTable {
-  //     flex-direction: row;
-  //     top: 55%;
-  //     left: 0;
-  // } */
 }
 
 .backblaze {
@@ -47,16 +31,11 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 100%;
-
   position: absolute;
   bottom: 22%;
   left: 27%;
   width: 30px;
   height: 30px;
-  /* //   @include onTable {
-  //     top: 14%;
-  //     left: 17%;
-  // } */
 }
 
 .bunnyLogo {
@@ -64,16 +43,11 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 100%;
-
   position: absolute;
   bottom: 22%;
   left: 46%;
   width: 30px;
   height: 30px;
-  /* //   @include onTable {
-  //     top: 31%;
-  //     left: 17%;
-  // } */
 }
 
 .scaleway {
@@ -81,16 +55,11 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 100%;
-
   position: absolute;
   bottom: 22%;
   left: 67%;
   width: 30px;
   height: 30px;
-  /* //   @include onTable {
-  //     top: 47%;
-  //     left: 17%;
-  // } */
 }
 
 .vultr {
@@ -98,16 +67,11 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 100%;
-
   position: absolute;
   bottom: 22%;
   left: 87%;
   width: 30px;
   height: 30px;
-  /* //   @include onTable {
-  //     top: 62%;
-  //     left: 17%;
-  // } */
 }
 
 @media (min-width: 768px) {
@@ -115,29 +79,34 @@
     width: 700px;
     height: 350px;
   }
+
   .bunnyStorageChoice {
     flex-direction: row;
     top: 37%;
     left: 0;
   }
+
   .scalewayStorageChoice {
     flex-direction: row;
     top: 55%;
     left: 0;
   }
+
   .backblaze {
     top: 14%;
     left: 17%;
-  
   }
+
   .bunnyLogo {
     top: 31%;
     left: 17%;
   }
+
   .scaleway {
     top: 47%;
     left: 17%;
   }
+
   .vultr {
     top: 62%;
     left: 17%;
