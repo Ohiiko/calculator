@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./styles/main.css">
+  
+</head>
+<body>
+  <div class="range">
+    <div class="storage scale_range">
+      <label class="scale_range__title" for="Storage">Storage:</label>
+      <div class="storage__value scale_range__value">0</div>
+      <input class="storage__range scale_range__range" type="range" min="0" max="1000" step="1" value="0">
+    </div>
+    <div class="transfer scale_range">
+      <label class="scale_range__title" for="Storage">Transfer:</label>
+      <div class="transfer__value scale_range__value">0</div>
+      <input class="transfer__range scale_range__range" type="range" min="0" max="1000" step="1" value="0">
+    </div>
+  </div>
+  
+  <div id="chartReport">
+    <canvas id="myChart"></canvas>
+    <span class="backblaze"></span>
+    <span class="bunnyLogo"></span>
+    <span class="scaleway"></span>
+    <span class="vultr"></span>
+    <div class="bunnyStorageChoice">
+      <label for="bunnyStorageChoice1">
+        <input type="radio" id="bunnyStorageChoice1"
+             name="bunnyStorage" value="HDD" checked>
+        HDD
+      </label>
+      <label for="bunnyStorageChoice2">
+        <input type="radio" id="bunnyStorageChoice2"
+             name="bunnyStorage" value="SDD">
+        SDD
+      </label>
+    </div>
+    <div class="scalewayStorageChoice">
+      <label for="scalewayStorageChoice1">
+        <input type="radio" id="scalewayStorageChoice1"
+             name="scalewayStorage" value="Multi" checked>
+        Multi
+      </label>
+      
+      <label for="scalewayStorageChoice2">
+        <input type="radio" id="scalewayStorageChoice2"
+             name="scalewayStorage" value="Single">
+        Single
+      </label>
+    </div>
+  </div>
+
+  <script type="module" src="./app.js"></script>
+
+</body>
+</html>
